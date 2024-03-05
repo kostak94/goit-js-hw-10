@@ -1,0 +1,54 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 360px;
+  color: #2e2f42;
+}
+.delay-label {
+  display: flex;
+  flex-direction: column;
+}
+fieldset {
+  margin: 0;
+  padding-top: 18px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+fieldset:hover {
+  border: 1px solid #000000;
+}
+fieldset:active {
+  border: 1px solid #000000;
+}
+input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  outline: none;
+}
+input:hover {
+  border: 1px solid #000000;
+}
+input:focus {
+  border: 1px solid #4e75ff;
+}
+button {
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: #6c8cff;
+}
